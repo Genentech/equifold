@@ -8,9 +8,9 @@ This is an official open source code repo of [EquiFold](#citations) developed by
 - There are known issues occasionally seen in predicted structures including nonphysical bond geometry and clashes. We are researching ways to improve the model to minimize such issues.
 
 
-## Installation and usage
-### Environment set up
-We used the following set up on a HPC platform equipped with A100 GPUs.
+## Setup and usage
+### Environment
+We used the following setup on a HPC platform equipped with A100 GPUs.
 ```
 conda create -n ef python=3.9 -y
 conda activate ef
@@ -28,19 +28,20 @@ conda install pyg -c pyg
 pip install e3nn pytorch-lightning biopython pandas tqdm einops
 ```
 
-### Download model weights
-Pytorch model weights and hyper-parameter configs for the models trained on mini-protein and antibody (Ab) datasets are stored in `models` directory.
+
+### Model weights
+Pytorch model weights and hyper-parameter configs for the models trained on mini-protein and antibody datasets as described in the manuscript are stored in `models` directory.
+
 
 ### Run model predictions
-To make predictions using a trained model, users can provide input sequences as a csv table:
+To make predictions using a trained model, users can run the following scripts providing input sequences as a csv table:
 
 ```
-# for Ab
+# for antibodies
 python run_inference.py --model ab --model_dir models --seqs tests/data/inference_ab_input.csv --ncpu 1 --out_dir out_tests
-# for mini proteins
+# for mini-proteins
 python run_inference.py --model science --model_dir models --seqs tests/data/inference_science_input.csv --ncpu 1 --out_dir out_tests
 ```
-
 
 
 ## License
