@@ -1,0 +1,14 @@
+*png
+*csv
+*xlsx
+*npy
+*npz
+*DS_store
+data/*
+data_science/*
+*.pyc
+*.db
+*__pycache__*
+*pdb
+*pdb.gz
+*mpg
