@@ -43,7 +43,20 @@ $ python run_inference.py --model ab --model_dir models --seqs tests/data/infere
 # For mini-proteins
 $ python run_inference.py --model science --model_dir models --seqs tests/data/inference_science_input.csv --ncpu 1 --out_dir out_tests
 ```
+## Contributing
 
+We welcome contributions. If you would like to submit pull requests, please make sure you base your pull requests off the latest version of the `main` branch. Keep your fork synced by setting its upstream remote to `Genentech/equifold` and running:
+
+```sh
+# If your branch only has commits from master but is outdated:
+
+$ git pull --ff-only upstream main
+
+
+# If your branch is outdated and has diverged from main branch:
+
+$ git pull --rebase upstream main
+```
 
 ## License
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0.
