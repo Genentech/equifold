@@ -68,16 +68,14 @@ Unless required by applicable law or agreed to in writing, software distributed 
 If you use the code and/or model, please cite:
 ```
 @article {Lee2022.10.07.511322,
-    author  = {Lee, Jae Hyeon and Yadollahpour, Payman and Watkins, Andrew and Frey, Nathan C. and Leaver-Fay, Andrew and Ra, Stephen and Cho, Kyunghyun and Gligorijevic, Vladimir and Regev, Aviv and Bonneau, Richard},
-    title   = {EquiFold: Protein Structure Prediction with a Novel Coarse-Grained Structure Representation},
+    author = {Lee, Jae Hyeon and Yadollahpour, Payman and Watkins, Andrew and Frey, Nathan C. and Leaver-Fay, Andrew and Ra, Stephen and Cho, Kyunghyun and Gligorijevi{\'c}, Vladimir and Regev, Aviv and Bonneau, Richard},
+    title = {EquiFold: Protein Structure Prediction with a Novel Coarse-Grained Structure Representation},
     elocation-id = {2022.10.07.511322},
-    year    = {2022},
-    doi     = {10.1101/2022.10.07.511322},
+    year = {2023},
+    doi = {10.1101/2022.10.07.511322},
     publisher = {Cold Spring Harbor Laboratory},
-    URL     = {https://www.biorxiv.org/content/early/2022/10/08/2022.10.07.511322},
-    eprint  = {https://www.biorxiv.org/content/early/2022/10/08/2022.10.07.511322.full.pdf},
+    URL = {https://www.biorxiv.org/content/early/2023/01/02/2022.10.07.511322},
+    eprint = {https://www.biorxiv.org/content/early/2023/01/02/2022.10.07.511322.full.pdf},
     journal = {bioRxiv}
 }
 ```
-
-An updated version of the preprint is under preparation.
